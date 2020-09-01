@@ -171,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     if (!dataSnapshot.hasChild(current_user_id)) {
                         // Send User To Setup Activity
+
                         Intent setupIntent = new Intent(MainActivity.this, setup.class);
                         setupIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(setupIntent);
