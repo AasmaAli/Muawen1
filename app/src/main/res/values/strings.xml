@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Muawen_asma</string>
+    <string name="create_accont">create Accont</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="have_accont">Have accont????</string>
+</resources>
